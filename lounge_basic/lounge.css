@@ -1,0 +1,13 @@
+p {
+    background-color: aquamarine;
+    margin-left: 50px;
+    height: 150px;
+    border-radius: 50px;
+    padding-left: 80px;
+    border: dashed;
+    background-image: url(background.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-color: white;
+    border-width: 2px;
+}
