@@ -1,3 +1,10 @@
+.bkd {
+    background-color: #9A5927;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
 ul li {
     float: left;
     display: block;
@@ -35,4 +42,56 @@ ul li ul li:hover a {
 
 ul li ul a:hover li {
     color: #9a5927;
+}
+
+article {
+    text-align: center;
+}
+
+#good {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin-right: 65px;
+    background-color: pink;
+}
+
+#bad {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 30%;
+    background-color: pink;
+}
+
+#feature {
+    float: right;
+    display: block;
+    text-align: center;
+    width: 30%;
+    background-color: pink;
+}
+
+h2 {
+    font-size: 25px;
+    border: 1px dashed red;
+    color: red;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    font-size: 10px;
+    padding: 20px;
+}
+
+#com {
+    clear: both;
 }
